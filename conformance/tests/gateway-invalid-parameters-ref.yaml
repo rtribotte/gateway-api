@@ -11,6 +11,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "invalid-parameters-ref.example.com"
   infrastructure:
     parametersRef:
       group: invalid.io

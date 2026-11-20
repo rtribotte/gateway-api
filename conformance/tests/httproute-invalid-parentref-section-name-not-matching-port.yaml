@@ -9,6 +9,7 @@ spec:
   - name: http
     port: 80
     protocol: HTTP
+    hostname: "section-name-not-matching-port.example.com"
     allowedRoutes:
       kinds:
       - kind: HTTPRoute

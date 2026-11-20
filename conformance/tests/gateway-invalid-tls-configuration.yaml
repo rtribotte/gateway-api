@@ -11,6 +11,7 @@ spec:
     - name: https
       port: 443
       protocol: HTTPS
+      hostname: "certificate-nonexistent-secret.example.com"
       allowedRoutes:
         namespaces:
           from: All
@@ -33,6 +34,7 @@ spec:
     - name: https
       port: 443
       protocol: HTTPS
+      hostname: "certificate-unsupported-group.example.com"
       allowedRoutes:
         namespaces:
           from: All
@@ -55,6 +57,7 @@ spec:
     - name: https
       port: 443
       protocol: HTTPS
+      hostname: "certificate-unsupported-kind.example.com"
       allowedRoutes:
         namespaces:
           from: All
@@ -77,6 +80,7 @@ spec:
     - name: https
       port: 443
       protocol: HTTPS
+      hostname: "certificate-malformed-secret.example.com"
       allowedRoutes:
         namespaces:
           from: All

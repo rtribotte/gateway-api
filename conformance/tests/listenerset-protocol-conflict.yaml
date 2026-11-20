@@ -12,7 +12,7 @@ spec:
   - name: gateway-listener
     port: 80
     protocol: HTTP
-    hostname: "gateway-listener.com"
+    hostname: "gateway-listener.protocol-conflict.com"
     allowedRoutes:
       namespaces:
         from: All
@@ -41,7 +41,7 @@ spec:
   - name: listener-set-1-listener
     port: 80
     protocol: HTTP
-    hostname: "listener-set-1-listener.com"
+    hostname: "listener-set-1-listener.protocol-conflict.com"
     allowedRoutes:
       namespaces:
         from: All
@@ -98,7 +98,7 @@ spec:
   - name: listener-set-2-listener
     port: 80
     protocol: HTTP
-    hostname: "listener-set-2-listener.com"
+    hostname: "listener-set-2-listener.protocol-conflict.com"
     allowedRoutes:
       namespaces:
         from: All

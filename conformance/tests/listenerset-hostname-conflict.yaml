@@ -12,7 +12,7 @@ spec:
   - name: gateway-listener
     port: 80
     protocol: HTTP
-    hostname: "gateway-listener.com"
+    hostname: "gateway-listener.hostname-conflict.com"
     allowedRoutes:
       namespaces:
         from: All

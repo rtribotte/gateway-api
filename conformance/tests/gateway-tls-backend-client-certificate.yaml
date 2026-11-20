@@ -9,6 +9,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "abc.example.com"
       allowedRoutes:
         namespaces:
           from: Same

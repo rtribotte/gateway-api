@@ -23,6 +23,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "supported-and-unsupported-protocols.example.com"
     - name: invalid
       port: 1111
       protocol: INVALID

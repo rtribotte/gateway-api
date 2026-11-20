@@ -9,7 +9,7 @@ spec:
   - name: gateway-listener
     port: 80
     protocol: HTTP
-    hostname: "gateway-listener.com"
+    hostname: "gateway-listener.allowed-routes-supported-kinds.com"
     allowedRoutes:
       namespaces:
         from: All

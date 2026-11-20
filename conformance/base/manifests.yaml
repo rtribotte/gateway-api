@@ -97,7 +97,7 @@ spec:
   gatewayClassName: "{GATEWAY_CLASS_NAME}"
   listeners:
     - name: http
-      port: 80
+      port: 8081
       protocol: HTTP
       allowedRoutes:
         namespaces:
@@ -112,7 +112,7 @@ spec:
   gatewayClassName: "{GATEWAY_CLASS_NAME}"
   listeners:
     - name: http
-      port: 80
+      port: 8082
       protocol: HTTP
       allowedRoutes:
         namespaces:

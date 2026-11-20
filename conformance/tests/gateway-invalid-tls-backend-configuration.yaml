@@ -9,6 +9,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "client-certificate-nonexistent-secret.example.com"
       allowedRoutes:
         namespaces:
           from: Same
@@ -30,6 +31,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "client-certificate-unsupported-group.example.com"
       allowedRoutes:
         namespaces:
           from: Same
@@ -51,6 +53,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "client-certificate-unsupported-kind.example.com"
       allowedRoutes:
         namespaces:
           from: Same
@@ -72,6 +75,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "client-certificate-malformed-secret.example.com"
       allowedRoutes:
         namespaces:
           from: Same
@@ -103,6 +107,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "client-certificate-missing-reference-grant.example.com"
       allowedRoutes:
         namespaces:
           from: Same

@@ -17,6 +17,7 @@ spec:
   - name: http
     port: 80
     protocol: HTTP
+    hostname: "two-listeners-one-attached-route.example.com"
     allowedRoutes:
       kinds:
       - kind: HTTPRoute

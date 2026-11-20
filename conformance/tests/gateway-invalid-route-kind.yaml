@@ -11,6 +11,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "gateway-only-invalid-route-kind.example.com"
       allowedRoutes:
         namespaces:
           from: All
@@ -30,6 +31,7 @@ spec:
     - name: http
       port: 80
       protocol: HTTP
+      hostname: "gateway-supported-and-invalid-route-kind.example.com"
       allowedRoutes:
         namespaces:
           from: All
